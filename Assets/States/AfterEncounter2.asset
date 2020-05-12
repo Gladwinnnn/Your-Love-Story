@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0c0cf41101db24c8c66a030a78b450, type: 3}
+  m_Name: AfterEncounter2
+  m_EditorClassIdentifier: 
+  storyText: "You were annoyed at the girl for being so clumsy and left her behind
+    while you walk to school alone thinking how unlucky you were to have experience
+    such an encounter. \n\nYou arrived in school and wondered where is your class
+    located. You then saw a confused girl as well probably wondering where her class
+    is as well.\n\nWhat should you do?\n1. Ask her if she wants to look for the class
+    together\n2. Ignore and proceed to search for your class\n"
+  nextStates:
+  - {fileID: 11400000, guid: 07b3ec8c71796ab4aa32dbe04051cbb4, type: 2}
+  - {fileID: 11400000, guid: 4cfb519a07d2b044cb64e90e08c04b13, type: 2}

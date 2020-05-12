@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0c0cf41101db24c8c66a030a78b450, type: 3}
+  m_Name: SchoolEncounter1
+  m_EditorClassIdentifier: 
+  storyText: "You found out that both of you are in fact in the same class and proceed
+    to search for the classroom. Along the way, you introduced yourself and chatted
+    a little with the girl. \n\nYou arrived at the classroom and was shocked to see
+    so many people were already here. It is time to part ways with the girl.\n\nWhat
+    do you do?\n1. Suggest that you guys seat close to each other\n2. Leave her and
+    find an empty seat"
+  nextStates:
+  - {fileID: 11400000, guid: 95c120a484f186141a3e542c68507149, type: 2}
+  - {fileID: 11400000, guid: 36c50a3cdbddf834ba5d1d5b104505bd, type: 2}

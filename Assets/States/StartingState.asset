@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0c0cf41101db24c8c66a030a78b450, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You have just started high school and are on your way to school. Along
+    the way, a girl\r wearing the same uniform accidentally bumped into you. She
+    immediately apologises to you\r\nprofusely.\r\n\r\nWhat do you do?\r\n1. Reassure
+    her that it is alright and ask if she is hurt\r\n2. Glare furiously at her and
+    walk away\r\n\r\n\r\n\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: bbf8b7865d99a3b44aab3bc2d641a61e, type: 2}
+  - {fileID: 11400000, guid: cd8ecf6037ed4b644874c82db5e549a5, type: 2}

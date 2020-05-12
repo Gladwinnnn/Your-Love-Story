@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0c0cf41101db24c8c66a030a78b450, type: 3}
+  m_Name: WalkingToSchool
+  m_EditorClassIdentifier: 
+  storyText: "You walked to school together with the girl and introduced yourself.
+    You guys have in fact quite a lot of things in common and begin to think that
+    you were fated to meet this girl. \n\nAs you arrived in school, you realised
+    it is time to part ways.\n\nWhat do you do?\n1. Suggest to hang out after school\n2.
+    Wave her goodbye and search for your class"
+  nextStates:
+  - {fileID: 11400000, guid: 95c120a484f186141a3e542c68507149, type: 2}
+  - {fileID: 11400000, guid: 36c50a3cdbddf834ba5d1d5b104505bd, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0c0cf41101db24c8c66a030a78b450, type: 3}
+  m_Name: AfterEncounter1
+  m_EditorClassIdentifier: 
+  storyText: 'She blushed a little and apologized one more time before assuring me
+    that she is not hurt not all. She noticed you were wearing the same uniform as
+    her and asked you about it.
+
+
+    What do you do?
+
+    1. Asked if she would
+    want to walk to school together
+
+    2. Reply her nonchantly before walking to
+    school alone'
+  nextStates:
+  - {fileID: 11400000, guid: 0c031fabd1484fc4c900ce6d7e3db7f3, type: 2}
+  - {fileID: 11400000, guid: d9bd8e33006e46d42a9b917bc9e1921b, type: 2}
